@@ -3,11 +3,11 @@ import SearchForm from "../lib/SearchForm";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{padding:24, textAlign:"center"}}>
       <h1>
         Create a car ? (will not be shipped to you)
       </h1>
-      <CarForm />
+      <CarForm style={{margin:"auto"}}/>
       <h1>
         Find a car, except your own
       </h1>
